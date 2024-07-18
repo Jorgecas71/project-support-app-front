@@ -43,17 +43,21 @@ export default {
 
 <style lang="scss" scoped>
 h2 {
-    color: #f6e9e9;
+    color: #ffeb3b;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .card {
     border-radius: 10px;
-    background-color: #635d5d;
-    color: #f6e9e9;
+    background-color: #e0f7fa;
+    color: #006064;
 }
 
 .card-header {
-    background-color: #222529;
+    background-color: #004d40;
 }
 
 .card-body {

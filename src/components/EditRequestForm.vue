@@ -73,3 +73,16 @@ const cancelEdit = () => {
         </div>
     </div>
 </template>
+
+<style lang="scss" scoped>
+h5 {
+    text-align: center;
+    margin-top: 5%;
+    color: #ffeb3b;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+</style>

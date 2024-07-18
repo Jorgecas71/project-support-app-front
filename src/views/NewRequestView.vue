@@ -13,6 +13,10 @@ import NewRequestForm from '../components/NewRequestForm.vue';
 h2 {
     text-align: center;
     margin-top: 5%;
-    color: #f6e9e9;
+    color: #ffeb3b;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
 }
 </style>

@@ -64,7 +64,6 @@ const resetForm = () => {
     </div>
 </template>
 
-
 <style lang="scss" scoped>
 .container {
     margin-top: 0;
@@ -72,12 +71,12 @@ const resetForm = () => {
 
 .card {
     border-radius: 10px;
-    background-color: #635d5d;
-    color: #f6e9e9;
+    background-color: #e0f7fa;
+    color: #006064;
 }
 
 .card-header {
-    background-color: #222529;
+    background-color: #004d40;
 }
 
 .card-body {
@@ -87,6 +86,11 @@ const resetForm = () => {
 
 .card-title {
     margin-bottom: 0;
+    color: #ffeb3b;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .card-text {
@@ -99,28 +103,28 @@ const resetForm = () => {
 }
 
 .form-label {
-    color: #f6e9e9;
+    color: #006064;
 }
 
 .form-control {
-    background-color: #f6e9e9;
+    background-color: #b2ebf2;
     border: none;
-    color: #635d5d;
+    color: #004d40;
 }
 
 .btn-primary {
-    background-color: #f6e9e9;
-    color: #635d5d;
+    background-color: #ffeb3b;
+    color: #004d40;
     border: none;
 }
 
 .btn-secondary {
-    background-color: #222529;
-    color: #f6e9e9;
+    background-color: #004d40;
+    color: #ffeb3b;
     border: none;
 }
 
 .btn-link {
-    color: #f6e9e9;
+    color: #004d40;
 }
 </style>
