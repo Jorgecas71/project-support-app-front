@@ -1,5 +1,5 @@
 <script setup>
-import RequestList from '@/components/RequestList.vue';
+import RequestList from '../components/RequestList.vue';
 </script>
 
 <template>

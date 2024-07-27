@@ -5,7 +5,7 @@ import NewRequest from '../components/NewRequest.vue';
 <template>
     <h2>Request Form</h2>
     <main>
-        <NewRequestForm />
+        <NewRequest />
     </main>
 </template>
 

@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue';
-import EditRequest from '../components/EditRequest.vue';
-import EditRequestList from '../components/EditRequestList.vue';
+import Request from '../components/Request.vue';
+import RequestList from '../components/RequestList.vue';
 
 const selectedRequestId = ref(null);
 
