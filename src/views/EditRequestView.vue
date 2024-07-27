@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import EditRequestForm from '../components/EditRequestForm.vue';
+import EditRequest from '../components/EditRequest.vue';
 import EditRequestList from '../components/EditRequestList.vue';
 
 const selectedRequestId = ref(null);

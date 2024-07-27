@@ -9,14 +9,14 @@ export default {
     };
   },
   created() {
-    // Lógica para obtener la solicitud actual y rellenar los campos
+   
   },
   methods: {
     updateRequest() {
-      // Lógica para actualizar la solicitud en la base de datos
+
     },
     cancel() {
-      // Lógica para cancelar y volver a la lista de solicitudes
+      
     }
   }
 };

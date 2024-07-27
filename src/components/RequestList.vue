@@ -6,7 +6,7 @@ export default {
     };
   },
   created() {
-    // Lógica para obtener las solicitudes de la base de datos
+   
   }
 };
 </script>

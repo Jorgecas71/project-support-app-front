@@ -3,6 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import RequestList from '../views/RequestListView.vue';
 import NewRequest from '../views/NewRequestView.vue';
 import EditRequest from '../views/EditRequestView.vue';
+import LoginView from '../views/LoginView.vue';
 
 
 const router = createRouter({
@@ -27,6 +28,11 @@ const router = createRouter({
       path: '/edit-request/:id',
       name: 'EditRequestView',
       component: EditRequest
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: LoginView
     }
   ],
 });

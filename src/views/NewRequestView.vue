@@ -1,5 +1,5 @@
 <script setup>
-import NewRequestForm from '../components/NewRequestForm.vue';
+import NewRequest from '../components/NewRequest.vue';
 </script>
 
 <template>
