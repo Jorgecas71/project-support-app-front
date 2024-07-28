@@ -1,15 +1,11 @@
-<script>
-export default {
-  data() {
-    return {
-      requests: []
-    };
-  },
-  created() {
-   
-  }
-};
+<script setup>
+import { ref } from 'vue';
+
+const requests = ref([]);
+
+// Puedes agregar lógica en el ciclo de vida aquí si es necesario
 </script>
+
 
 <template>
   <div class="request-list">

@@ -1,26 +1,20 @@
-<script>
-export default {
-  data() {
-    return {
-      requester_name: '',
-      request_date: '',
-      subject: '',
-      description: ''
-    };
-  },
-  created() {
-   
-  },
-  methods: {
-    updateRequest() {
+<script setup>
+import { ref } from 'vue';
 
-    },
-    cancel() {
-      
-    }
-  }
+const requester_name = ref('');
+const request_date = ref('');
+const subject = ref('');
+const description = ref('');
+
+const updateRequest = () => {
+  // Lógica para actualizar la solicitud
+};
+
+const cancel = () => {
+  // Lógica para cancelar y volver a la lista de solicitudes
 };
 </script>
+
 
 <template>
   <div class="edit-request">

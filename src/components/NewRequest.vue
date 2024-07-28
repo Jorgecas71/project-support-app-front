@@ -1,21 +1,17 @@
-<script>
-export default {
-  data() {
-    return {
-      requester_name: '',
-      request_date: '',
-      subject: '',
-      description: ''
-    };
-  },
-  methods: {
-    submitRequest() {
-      // Lógica para enviar la solicitud a la base de datos
-    },
-    cancel() {
-      // Lógica para cancelar y volver a la lista de solicitudes
-    }
-  }
+<script setup>
+import { ref } from 'vue';
+
+const requester_name = ref('');
+const request_date = ref('');
+const subject = ref('');
+const description = ref('');
+
+const submitRequest = () => {
+  // Lógica para enviar la solicitud a la base de datos
+};
+
+const cancel = () => {
+  // Lógica para cancelar y volver a la lista de solicitudes
 };
 </script>
 
