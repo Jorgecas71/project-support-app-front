@@ -2,7 +2,7 @@
     <footer class="footer bg-dark text-light py-3">
         <div class="container-fluid">
             <div class="row justify-content-between align-items-center">
-                <a href="/" class="text-decoration-none">© 2024 Nekompany. All rights reserved</a>
+                <a href="/" class="text-decoration-none">© 2024 Jorge Castro. All rights reserved</a>
                 <div class="col-md-4 text-end"></div>
             </div>
         </div>
