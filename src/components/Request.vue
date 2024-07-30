@@ -7,14 +7,20 @@ const subject = ref('');
 const description = ref('');
 
 const updateRequest = () => {
-  // Lógica para actualizar la solicitud
+  // Aquí puedes agregar la lógica para actualizar la solicitud
+  console.log('Solicitud actualizada:', {
+    requester_name: requester_name.value,
+    request_date: request_date.value,
+    subject: subject.value,
+    description: description.value,
+  });
 };
 
 const cancel = () => {
-  // Lógica para cancelar y volver a la lista de solicitudes
+  // Aquí puedes agregar la lógica para cancelar y volver a la lista de solicitudes
+  console.log('Edición cancelada');
 };
 </script>
-
 
 <template>
   <div class="edit-request">
@@ -43,6 +49,7 @@ const cancel = () => {
 </template>
 
 <style scoped>
-
+/* Puedes agregar estilos aquí si es necesario */
 </style>
+
 

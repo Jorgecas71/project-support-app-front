@@ -28,6 +28,7 @@ const login = () => {
 
 
 <style lang="scss" scoped>
+
 .login {
   max-width: 400px;
   margin: 0 auto;
@@ -35,41 +36,41 @@ const login = () => {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-.form-group {
-  margin-bottom: 15px;
-}
+  .form-group {
+    margin-bottom: 15px;
+  }
 
-label {
-  display: block;
-  margin-bottom: 5px;
-}
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
 
-input {
-  width: 100%;
-  padding: 8px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
 
-button {
-  width: 100%;
-  padding: 10px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 
-  &:hover {
-    background-color: #0056b3;
+    &:hover {
+      background-color: #0056b3;
+    }
   }
 }
 

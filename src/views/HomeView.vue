@@ -4,7 +4,7 @@ import Welcome from '../components/Welcome.vue';
 
 <template>
   <main>
-    <h1>Welcome to SuperSupport!</h1>
+   
     <Welcome />
   </main>
 </template>

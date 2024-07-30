@@ -11,6 +11,6 @@
 
 <style lang="scss" scoped>
 a {
-    color: #f6e9e9;
+  color: #f6e9e9;
 }
 </style>
