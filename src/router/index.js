@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from "vue-router"
 import HomeView from "../views/HomeView.vue"
 import RequestList from '../views/RequestListView.vue'
 import NewRequest from '../views/NewRequestView.vue'
-import Request from '../views/RequestView.vue'
 import LoginView from '../views/LoginView.vue'
+import RequestView from '../views/RequestView.vue'
 
 
 const router = createRouter({
@@ -25,7 +25,7 @@ const router = createRouter({
       component: NewRequest
     },
     {
-      path: '/request/:id',
+      path: '/request',
       name: 'Request',
       component: RequestView
     },

@@ -23,7 +23,7 @@
                         <RouterLink to="/new-request" class="nav-link">New Request</RouterLink>
                     </li>
                     <li>
-                        <RouterLink to="/request/:id" class="nav-link">Edit Request</RouterLink>
+                        <RouterLink to="/request" class="nav-link">Edit Request</RouterLink>
                     </li>
                 </ul>
             </div>

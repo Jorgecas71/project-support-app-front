@@ -1,15 +1,15 @@
 <script setup>
 
-import Request from '../components/Request.vue'
+import Request from '../components/Request.vue';
 
 
 </script>
 
 <template>
     <main>
+      <Request />
       
         <div>
-         <Request />
             <EditRequestList v-if="!selectedRequestId" @edit="selectRequest" />
             <EditRequestForm v-else :id="selectedRequestId" @cancel="clearSelection" />
         </div>
