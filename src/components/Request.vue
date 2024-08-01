@@ -49,7 +49,7 @@ const cancel = () => {
 </template>
 
 <style scoped>
-/* Puedes agregar estilos aquí si es necesario */
+
 </style>
 
 

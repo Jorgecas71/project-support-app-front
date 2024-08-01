@@ -7,17 +7,17 @@ const subject = ref('');
 const description = ref('');
 
 const submitRequest = () => {
-  // Lógica para enviar la solicitud a la base de datos
+ 
 };
 
 const cancel = () => {
-  // Lógica para cancelar y volver a la lista de solicitudes
+  
 };
 </script>
 
 <template>
   <div class="new-request">
-    <h1>Nueva Solicitud</h1>
+    
     <form @submit.prevent="submitRequest">
       <div>
         <label for="requester_name">Nombre del Solicitante:</label>

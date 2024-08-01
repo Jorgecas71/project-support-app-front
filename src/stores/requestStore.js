@@ -10,7 +10,7 @@ export const useRequestStore = defineStore({
     async fetchAllRequests() {
       try {
         const response = await fetch(
-          "http://localhost:8080/api/support-requests/all"
+          "http://localhost:8080/api/requests/all"
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");

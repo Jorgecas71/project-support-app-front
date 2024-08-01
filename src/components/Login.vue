@@ -1,11 +1,17 @@
 <script setup>
 import { ref } from 'vue';
 
+
 const username = ref('');
 const password = ref('');
 
 const login = () => {
   // Lógica de autenticación
+  if (username.value === 'admin' && password.value === 'admin123') {
+    alert('Login correcto');
+  } else {
+    alert('Nombre de usuario o contraseña incorrectos');
+  }
 };
 </script>
 
